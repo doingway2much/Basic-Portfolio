@@ -21,7 +21,12 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
+
+input[type=submit] {
+    background-color: #00183C;
+    color: white;
+}
 a:hover {
     color: mediumblue;
 }
