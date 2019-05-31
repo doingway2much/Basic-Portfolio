@@ -1,9 +1,18 @@
-
+body{
+    margin: 0;
+}
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif
 }
 h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+}
+li {
     font-family: Arial, Helvetica, sans-serif
 }
 p {
@@ -36,11 +45,17 @@ a:hover {
 
 img {
     float: left;
-    padding: 10px;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style:  groove;
+    border-color: #00183C;
 }
 
 .header {
-    
+    border-bottom-style: groove;
+    border-bottom-width: .2em;
+    border-color: #03BCF2;
 }
 
 #name {   
@@ -56,12 +71,10 @@ img {
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
    margin-right: 25%;
-   margin-left: 25%;
    background: white;
    padding: 25px;
    text-align: right;
-   word-spacing: 2em;
-   
+   word-spacing: 1em;
 }
 
 .container {
@@ -71,20 +84,22 @@ img {
     min-height: 90vh;
     margin: 0;
     background-size: cover;
-    /* height: 100%; */
-    
     
 }
 
+
 #main-text {
     border-radius: 5px;
-    margin-bottom: 25px;
     padding: 20px;
     margin-left: 25%; 
     margin-right: 25%;
     background: white;   
     border-style: outset;
-    
+    width: 960px;
+    height: 500px;
+    text-overflow: unset; 
+    border-style:  groove;
+    border-color: #00183C;
 }
 
 .footer {
