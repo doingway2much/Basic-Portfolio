@@ -102,7 +102,7 @@ a:hover {
 .image-left {
     position: relative;
     top: 25px;
-    left: 50px;
+    left: 150px;
     border-radius: 5px;
     border: 2px solid;
     border-color: #00183C;
@@ -113,7 +113,7 @@ a:hover {
     color: white;
     position: relative;
     top: -57px;
-    left: 52px;
+    left: 152px;
     height: 25px;
     width: 300px;
     background-color: #00183C;
@@ -123,7 +123,7 @@ a:hover {
 .image-right {
     position: relative;
     top: -449px;
-    left: 456px;
+    left: 506px;
     border-radius: 5px;
     border: 2px solid;
     border-color: #00183C;
@@ -135,7 +135,7 @@ a:hover {
     color: white;
     position: relative;
     top: -531px;
-    left: 458px;
+    left: 508px;
     height: 25px;
     width: 300px;
     background-color: #00183C;
